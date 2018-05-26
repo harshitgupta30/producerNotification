@@ -1,0 +1,22 @@
+{
+  "name": "producerNotification",
+  "version": "1.0.0",
+  "description": "Module to publish records to the Kafka queue.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "producerNotification"
+  },
+  "author": "Harshit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "~1.6.2",
+    "express": "~4.12.4",
+    "body-parser": "^1.12.4",
+    "bunyan": "^1.4.0",
+    "node-uuid": "^1.4.3" 
+  }
+}
